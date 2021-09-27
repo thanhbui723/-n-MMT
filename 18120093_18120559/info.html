@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infomation</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background:white; 
+        }
+
+        .avatar {
+            max-width: 100%;
+            height: 100%;
+            width: 100%;
+            image-rendering: pixelated;
+        }
+        
+        #main {
+            width: 1000px;
+            margin: 30px auto;
+            display: flex;
+            justify-content:space-around;
+            
+        }
+
+        #heading {
+            text-transform: uppercase;
+            margin: 0px auto 10px auto;
+            text-align: center;
+        }
+        #card{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="heading" class="alert alert-primary" role="alert">
+        <h1>Members</h1>
+    </div>
+
+    <div id="main">
+        <div id="card" class="card" style="width: 23rem;">
+            <img class="avatar" class="card-img-top" src="avatar/01.jpg" alt="Card image cap">
+            <div class="card-body">
+            <h5 class="card-title">Nguyến Trần Tố</h5>
+            </div>
+            <ul>
+                <li>MSSV: 18120093</li>
+                <li>Email: 18120093@student.hcmus.edu.vn</li>
+                <li>Trường Đại Học Khoa Học Tự Nhiên</li>
+            </ul>
+        </div>
+
+        <div id="card" class="card" style="width: 23rem;">
+            <img class="avatar" class="card-img-top" src="avatar/02.jpg" alt="Card image cap">
+            <div class="card-body">
+            <h5 class="card-title">Bùi Văn Thanh</h5>
+            </div>
+            <ul>
+                <li>MSSV: 18120559</li>
+                <li>Email: 18120559@student.hcmus.edu.vn</li>
+                <li>Trường Đại Học Khoa Học Tự Nhiên</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
